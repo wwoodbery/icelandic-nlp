@@ -1,0 +1,13 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11401610
+##  Job Name : hello_world
+##  Nodelist : node1733
+##      CPUs : 1
+##  Mem/Node : 1024 MB
+## Directory : /oscar/data/epavlick/wwoodber/project-icelandic
+##   Job Started : Wed Sep 27 11:04:15 EDT 2023
+###############################################################################
+module: unloading 'python/2.7.12'
+module: loading 'python/3.9.0'
+Hello World!
+This is a new file!

@@ -1,0 +1,19 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11972835
+##  Job Name : icetokenizer
+##  Nodelist : gpu1414
+##      CPUs : 2
+##  Mem/Node : 40960 MB
+## Directory : /oscar/data/epavlick/icelandic-nlp/from_scratch/tokenizer
+##   Job Started : Mon Nov  6 16:04:18 EST 2023
+###############################################################################
+module: unloading 'python/2.7.12'
+module: loading 'python/3.9.0'
+module: loading 'gcc/10.2'
+module: gcc: "Note: loading the gcc module overrides the gcc version on the system.  If you want to revert to the version of gcc provided by the OS, unload the gcc module."
+module: loading 'cuda/11.3.1'
+module: cuda: To use: module load gcc/10.2
+
+
+
+['<s>', 'Ãīg', 'Ġtala', 'ĠsmÃ¡', 'ĠÃŃslensku', '.', '</s>']

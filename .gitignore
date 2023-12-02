@@ -1,0 +1,9 @@
+data/
+env/
+**/*.bin
+**/*.pt
+NER/training_output/
+NER/training_output_copy/
+from_scratch/model/IC3/
+from_scratch/model/leipzig/
+from_scratch/model/leipzig_10/

@@ -1,0 +1,19 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11810186
+##  Job Name : icebert
+##  Nodelist : node[1744-1745]
+##      CPUs : 2
+##  Mem/Node : 20480 MB
+## Directory : /oscar/data/epavlick/icelandic-nlp/NER
+##   Job Started : Tue Oct 24 20:34:10 EDT 2023
+###############################################################################
+module: unloading 'python/2.7.12'
+module: loading 'python/3.9.0'
+ALL FILES READ AND PARSED
+17
+LABELS CONVERTED TO INTS
+CREATING DATASET...
+DATASET CREATED
+SAVING DATASET...
+Saving the dataset (0/1 shards):   0%|          | 0/58406 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 58406/58406 [00:00<00:00, 891866.43 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 58406/58406 [00:00<00:00, 888312.20 examples/s]
+DATSET SAVED

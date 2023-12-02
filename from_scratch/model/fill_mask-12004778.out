@@ -1,0 +1,17 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 12004778
+##  Job Name : fill_mask
+##  Nodelist : node1328
+##      CPUs : 2
+##  Mem/Node : 20480 MB
+## Directory : /oscar/data/epavlick/icelandic-nlp/from_scratch/model
+##   Job Started : Wed Nov  8 13:05:43 EST 2023
+###############################################################################
+module: unloading 'python/2.7.12'
+module: loading 'python/3.9.0'
+Þetta er bróðir <mask>.
+[{'score': 0.9124694466590881, 'token': 202, 'token_str': '\t', 'sequence': 'Þetta er bróðir\t.'}, {'score': 0.013060078956186771, 'token': 2228, 'token_str': 'Á', 'sequence': 'Þetta er bróðirÁ.'}, {'score': 0.011845090426504612, 'token': 24258, 'token_str': 'Árið', 'sequence': 'Þetta er bróðirÁrið.'}, {'score': 0.009706435725092888, 'token': 37, 'token_str': 'A', 'sequence': 'Þetta er bróðirA.'}, {'score': 0.009410976432263851, 'token': 7758, 'token_str': 'Að', 'sequence': 'Þetta er bróðirAð.'}]
+
+
+Supán <mask> mjög góð.
+[{'score': 0.33784884214401245, 'token': 2228, 'token_str': 'Á', 'sequence': 'SupánÁ mjög góð.'}, {'score': 0.07632380723953247, 'token': 20709, 'token_str': 'Ekki', 'sequence': 'SupánEkki mjög góð.'}, {'score': 0.06814773380756378, 'token': 7758, 'token_str': 'Að', 'sequence': 'SupánAð mjög góð.'}, {'score': 0.06645263731479645, 'token': 37, 'token_str': 'A', 'sequence': 'SupánA mjög góð.'}, {'score': 0.05258480831980705, 'token': 6787, 'token_str': 'Æ', 'sequence': 'SupánÆ mjög góð.'}]

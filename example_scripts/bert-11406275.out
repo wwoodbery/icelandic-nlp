@@ -1,0 +1,27 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 11406275
+##  Job Name : bert_example
+##  Nodelist : node[1325,1327]
+##      CPUs : 2
+##  Mem/Node : 20480 MB
+## Directory : /oscar/data/epavlick/wwoodber/project-icelandic
+##   Job Started : Wed Sep 27 15:41:24 EDT 2023
+###############################################################################
+module: unloading 'python/3.9.0'
+module: loading 'python/3.9.0'
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForMaskedLM: ['cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'bert.pooler.dense.bias', 'bert.pooler.dense.weight']
+- This IS expected if you are initializing BertForMaskedLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForMaskedLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Loaded tokenizer: "bert-base-uncased"
+Loaded model:"bert-base-uncased
+Computing outputs...
+Computed Loss:  0.88
+Python Version: /oscar/data/epavlick/wwoodber/project-icelandic/env/bin/python
+Virtual Environment: /oscar/data/epavlick/wwoodber/project-icelandic/env
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForMaskedLM: ['cls.seq_relationship.weight', 'bert.pooler.dense.bias', 'bert.pooler.dense.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForMaskedLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Loaded tokenizer: "bert-base-uncased"
+Loaded model:"bert-base-uncased
+Computing outputs...
+Computed Loss:  0.88
